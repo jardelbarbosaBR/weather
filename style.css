@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #43aefc;
+}
+
+.global{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixaPrincipal{
+    background-color: white;
+    border-radius: 7px;
+    width: 400px;
+    
+}
+
+.barBusca{
+    border-bottom: 1px solid #dedede ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 40px;
+}
+
+#buscarCidade{
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    outline-style: none;
+}
+
+.climaCidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.tempo{
+    display: flex;
+    align-items: flex-start;
+}
+
+#numberCelsus{
+    font-weight: 600;
+    font-size: 80px;
+}
+
+#deng{
+    font-weight: 400;
+    font-size: 50px;
+    margin: 10px 5px 0 0;
+}
+
+#graus{
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.tempoAtual{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.localizacao{
+    margin-top: 10px;
+}
+
+.detalhesDoClima{
+    display: flex;
+    border-top: 1px solid #dedede;
+}
+
+.sessaoTermica{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #dedede;
+    padding: 15px;
+    gap: 15px;
+    
+}
+
+.humidade{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+}
+
+.legendaDetalhe{
+    font-size: 10px;
+}
+
+.iconDetalhesTempo{
+    width: 40px;
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="global">
+        <div class="caixaPrincipal">
+            <div class="barBusca">
+                <input type="search" name="buscar" id="buscarCidade" placeholder="Pesquisar cidade...">
+            </div>
+            <div class="dadosDoTempo">
+                <div class="climaCidade">
+                    <img src="assets/img/cloudy.png" alt="Ilustração do clima" style="width: 100px;">
+                    <div class="tempo">
+                        <span id="numberCelsus">31</span>
+                        <span id="deng">°</span>
+                        <span id="graus">C</span>
+                    </div>
+                    <div class="tempoAtual">
+                        <span>Tempo nublado</span>
+                    </div>
+                    <div class="localizacao">
+                        <i class="fa-solid fa-location-arrow"></i>
+                        <span> Fortaleza</span>
+                    </div>   
+                </div>
+                <div class="detalhesDoClima">
+                    <div class="sessaoTermica">
+                        <img src="assets/img/hot-temperature.png" alt="Sessão Termica" class="iconDetalhesTempo">
+                        <div class="box-termica">
+                            <span>27°C</span>
+                            <p class="legendaDetalhe">senssão termica</p>
+                        </div>
+                    </div>
+                    <div class="humidade">
+                        <img src="assets/img/humidity.png" alt="Humidade" class="iconDetalhesTempo" >
+                        <div>
+                            <span>80%</span>
+                            <p class="legendaDetalhe">Humidade</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
