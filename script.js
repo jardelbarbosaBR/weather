@@ -16,9 +16,6 @@ function buscarInforTempo(cidade){
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${apikey}&units=metric&lang=pt_br`)
     .then(r => r.json())
     .then(tempo =>{
-        if(tempo == 404){
-            console.log("Erro")
-        }
         exibirInfor(tempo)
         console.log(tempo)
     })
