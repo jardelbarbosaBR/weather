@@ -1,4 +1,4 @@
-const key = "28838148eef2423e1cb56ed91262f783"
+const apikey = "28838148eef2423e1cb56ed91262f783"
 const inputCidade = document.getElementById('buscarCidade')
 const celsus = document.getElementById('numberCelsus')
 const tempoAtual = document.getElementById('tempoAtualizado')
